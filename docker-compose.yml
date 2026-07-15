@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  rpa:
+    build: .
+    # Forward the host's Android device into the container.
+    network_mode: "host"
+    environment:
+      - ADB_SERIAL=${ADB_SERIAL:-}
+    # Mount platform-tools if adb is not baked into the image.
+    volumes:
+      - ./src:/app/src
+      - ./examples:/app/examples
+    # Keep the container alive for interactive runs.
+    stdin_open: true
+    tty: true
+    command: ["python", "examples/wechat_auto/wechat_auto.py"]
