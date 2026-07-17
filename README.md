@@ -70,3 +70,14 @@ RPAEngine(MyTask(), max_steps=30).run()
 
 For **automation of apps you own or are authorized to automate**. Respect each
 app's terms of service and applicable law.
+
+---
+
+## About & Contact
+
+**QTPhone** — Global Independent IP Cloud Android Devices
+
+- 🌐 Official Website: [https://www.qtphone.com/](https://www.qtphone.com/)
+- 💬 WhatsApp: **@along915**
+- 📧 Gmail: **ailong9281@gmail.com**
+- ✈️ Telegram: **@Alongyun**
